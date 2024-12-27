@@ -1,0 +1,33 @@
+{
+    "hongKongLocationDetails": {
+      "locationName": "Hong Kong",
+      "address": "Suite 2501, Level 25 One Pacific Place 88 Queensway Admiralty Hong Kong",
+      "mainNum": "+852-36566800",
+      "faxNum": "+852-36566801"
+    },
+    "mumbaiLocationDetails": {
+      "locationName": "Mumbai",
+      "address": "Unit 2201, 22nd Floor, Express Towers Nariman Point Mumbai Maharashtra 400 021 India",
+      "mainNum": "+91-2267528000",
+      "faxNum": "+91-2267528010"
+    },
+    "seoulLocationDetails": {
+      "locationName": "Seoul",
+      "address": "28F, Parnas Tower 521, Teheran-ro, Gangnam-gu Seoul 06164 Korea, Republic of",
+      "mainNum": "+82 2 6940 2300",
+      "faxNum": "+82 2 6322 9822"
+    },
+    "sydneyLocationDetails": {
+      "locationName": "Sydney",
+      "address": "Level 28 88 Phillip Street Sydney NSW 2000 Australia",
+      "mainNum": "+61-2-9093-5500",
+      "faxNum": ""
+    },
+    "tokyoLocationDetails": {
+      "locationName": "Tokyo",
+      "address": "5F, Palace Building 1-1-1 Marunouchi Chiyoda-ku Tokyo 100-0005 Japan",
+      "mainNum": "+81-362127070",
+      "faxNum": "+81-362127071"
+    }
+  }
+  

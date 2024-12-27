@@ -1,0 +1,16 @@
+{
+  "name": "bain-capital-corporate-website-2024",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cypress": "^13.17.0",
+    "cypress-real-events": "^1.13.0"
+  }
+}
