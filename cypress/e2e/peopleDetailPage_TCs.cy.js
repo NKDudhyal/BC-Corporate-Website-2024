@@ -43,22 +43,22 @@ describe("People Page Tests", function () {
 
 
       // Enter the name in the search field 
-      cy.get("#peopleSearch").clear({ force: true }).type(trimmedName, { force: true });
+      peoplePom.set_searchField().clear({ force: true }).type(trimmedName, { force: true });
 
       // Click on the search icon
-      cy.get("#people-search > .fa-solid").click({ force: true });
+      peoplePom.click_searchIcon().click({ force: true });
       cy.wait(2000);
 
       // Check if the name is visible in the results
       cy.get("body").then(($body) => {
-        if ($body.find('.team-bg .team-desc h4 span').length > 0) {
-          cy.get('.team-bg .team-desc h4 span').invoke('text').then((resultName) => {
+        if ($body.find(peoplePom.verify_People_Name()).length > 0) {
+          cy.get(peoplePom.verify_People_Name()).invoke('text').then((resultName) => {
             const normalizedResultName = resultName.trim().replace(/\s+/g, " ");
             cy.wrap(normalizedResultName).should('include', trimmedName); // Partial match for the name
             cy.wait(3000);
 
             // Name found in results, click on the profile link
-            cy.get(".people-detail-link").click({ force: true });
+            peoplePom.peopleLink().click({ force: true });
             cy.wait(5005);
 
             // Verify that the profile page URL contains the expected format 
@@ -73,16 +73,16 @@ describe("People Page Tests", function () {
             // Navigate back to the search page for the next name
             cy.go('back');
           });
-        } else if ($body.find("#people-listing .alert").length > 0) {
+        } else if ($body.find(peoplePom.noMoreRecordsMsg()).length > 0) {
           // No results found, verify the 'No More Record Found' message
-          cy.get("#people-listing .alert").should('be.visible').and('contain.text', 'No More Record Found');
+          peoplePom.noMoreRecordsMsg().should('be.visible').and('contain.text', 'No More Record Found');
         } else {
           throw new Error("Unexpected state: Neither results nor error message found.");
         }
       });
 
       // Clear the search field before the next iteration
-      cy.get("#peopleSearch").clear({ force: true });
+      peoplePom.set_searchField().clear({ force: true });
     });
   });
 

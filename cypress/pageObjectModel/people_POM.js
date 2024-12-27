@@ -100,6 +100,10 @@ class people_pageObjectModel {
     return cy.get("#people-listing .alert", { timeout: 5000 });
   }
 
+  peopleLink(){
+    return cy.get(".people-detail-link")
+  }
+
 }
 
 export default people_pageObjectModel;

@@ -1,4 +1,4 @@
-/// <reference types='Cypress'/>
+/// <reference types='cypress'/>
 
 // Import Page Object Model classes and test data
 import CookiePOM from "../pageObjectModel/cookies_POM";
