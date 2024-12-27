@@ -157,59 +157,72 @@ describe("People Page Tests", function () {
       .should("eq", "Darren Abrahamson");
   });
 
-  // it("TC009 ==> Verify search functionality for multiple names", function () {
-  //   headerPom.people_lnk().click({ force: true });
-  //   cy.wait(2000);
-  //   // Array to hold results
-  //   const results = [];
+  it('TC009 ==> Verify that place holder display properly on search field.', function () {
+    headerPom.people_lnk().click({ force: true })
 
-  //   // Iterate through each name in peopleNames array
-  //   PeopleTestData.peopleNames.forEach((name) => {
-  //     // Normalize spaces in the name
-  //     const normalizedName = name.replace(/\s+/g, " ").trim();
-  //     const trimedName = normalizedName.trim();
-  //     cy.log(`Processing normalized name: ${normalizedName}`);
+    peoplePom.set_searchField().should('have.attr', 'placeholder', 'Search by name...')
+  })
 
-  //     // Enter the normalized name into the search field
-  //     peoplePom
-  //       .set_searchField()
-  //       .clear({ force: true })
-  //       .type(normalizedName, { force: true });
-  //     cy.wait(2000);
+  it('TC010 ==> Verify that grid and list view display and works properly.', function () {
+    headerPom.people_lnk().click({ force: true })
 
-  //     // Click search icon
-  //     peoplePom.click_searchIcon().click({ force: true });
-  //     cy.wait(3000);
+    cy.wait(10000)
 
-  //     // Check the result
-  //     cy.get("body").then(($body) => {
-  //       if ($body.text().includes("No More Record Found")) {
-  //         // Assert no record message is displayed
-  //         cy.contains("No More Record Found").should("be.visible");
-  //         cy.log("No More Record Found");
-  //         results.push({
-  //           name: normalizedName,
-  //           status: "No More Record Found",
-  //         });
-  //       } else {
-  //         // Assert the displayed name matches the normalized input
-  //         peoplePom
-  //           .verify_People_Name()
-  //           .invoke("text")
-  //           .then((displayedName) => {
-  //             const displayedNameTrimmed = displayedName
-  //               .replace(/\s+/g, " ")
-  //               .trim();
-  //             expect(displayedNameTrimmed).to.include(normalizedName);
-  //             cy.log("Expected name = ", displayedNameTrimmed);
-  //             cy.log("Display on site = ", normalizedName);
-  //           });
-  //       }
-  //     });
+    if (peoplePom.gridViewBtn().should('have.class', "active")) {
+      peoplePom.listViewBtn().click({ force: true })
+      peoplePom.listViewBtn().should('have.class', "active")
+    } else {
+      throw new Error("The list view is not active as expected.");
+    }
+    cy.wait(10000)
 
-  //     // Clear the search field before the next iteration
-  //     peoplePom.set_searchField().clear();
-  //   });
-  // });
+  })
+
+  it('TC011 ==> Verify that after selecting Location, Title, Business, Focus options then it should display the result section properly.', function () {
+    headerPom.people_lnk().click({ force: true });
+    cy.wait(5000);
+  
+    // Step 1: Select Location and verify
+    peoplePom.peopleLocation_Dropdown_btn().click({ force: true });
+    peoplePom.select_People_Boston_Location().invoke('text').then((locationname) => {
+      const selectedLocation = locationname.trim();
+      expect(selectedLocation).to.eq('Boston'); // Assert location is correct
+      peoplePom.select_People_Boston_Location().click({ force: true });
+  
+      // Step 2: Select Title and verify
+      peoplePom.peopleTitle_Dropdown_btn().click({ force: true });
+      peoplePom.select_People_Partner_Title_Option().invoke('text').then((titlename) => {
+        const selectedTitle = titlename.trim();
+        expect(selectedTitle).to.eq('Partner'); // Assert title is correct
+        peoplePom.select_People_Partner_Title_Option().click({ force: true });
+  
+        // Step 3: Select Business and verify
+        peoplePom.peopleBusiness_dropdown_btn().click({ force: true });
+        peoplePom.select_People_Credit_Busniess().invoke('text').then((businessname) => {
+          const selectedBusiness = businessname.trim();
+          expect(selectedBusiness).to.eq('Credit'); // Assert business is correct
+          peoplePom.select_People_Credit_Busniess().click({ force: true });
+  
+          // Step 4: Select Focus and verify
+          peoplePom.peopleFocus_Dropdown_btn().click({ force: true });
+          peoplePom.select_People_Industry_Research_Focus().invoke('text').then((focusname) => {
+            const selectedFocus = focusname.trim();
+            expect(selectedFocus).to.eq('Industry Research'); // Assert focus is correct
+            peoplePom.select_People_Industry_Research_Focus().click({ force: true });
+  
+            // Step 5: Verify result section
+            cy.get('.team-bg .team-footer .team-location').as('teamLocation'); // Alias creation
+            cy.get('@teamLocation').should('have.text', selectedLocation);
+  
+            peoplePom.verifyrResultTitle().should('have.text', selectedTitle);
+            peoplePom.verifyResultBusniess().should('have.text', selectedBusiness);
+          });
+        });
+      });
+    });
+  });
+  
+
+
 
 });

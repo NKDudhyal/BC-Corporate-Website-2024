@@ -16,6 +16,11 @@ class people_pageObjectModel {
     );
   }
 
+  select_People_Boston_Location() {
+    // Use a dynamic selector to click the desired option
+    return cy.get(`#locationFilter > :contains('Boston') > a`);
+  }
+
   /****************************************************************************************** */
 
   peopleTitle_Dropdown_btn() {
@@ -33,6 +38,11 @@ class people_pageObjectModel {
       "contain.text",
       option
     );
+  }
+
+  select_People_Partner_Title_Option() {
+    // Use a dynamic selector to click the desired option
+    return cy.get(`#titleFilter > :contains('Partner') > a`);
   }
 
   /**************************************************************************************** */
@@ -54,6 +64,11 @@ class people_pageObjectModel {
     );
   }
 
+  select_People_Industry_Research_Focus() {
+    // Use a dynamic selector to click the desired option
+    return cy.get(`#focusFilter > :contains('Industry Research') > a`);
+  }
+
   /**************************************************************************************************** */
 
   peopleBusiness_dropdown_btn() {
@@ -72,16 +87,13 @@ class people_pageObjectModel {
       .should("contain.text", option);
   }
 
-
-
-
+  select_People_Credit_Busniess() {
+    // Use a dynamic selector to click the desired option
+    return cy.get(`#peoplebusinessFilter > :contains('Credit') > a`);
+  }
 
 
   /********************************************************************************************* */
-
-
-
-
 
 
   set_searchField(){
@@ -102,6 +114,26 @@ class people_pageObjectModel {
 
   peopleLink(){
     return cy.get(".people-detail-link")
+  }
+
+  gridViewBtn(){
+    return cy.get(".switch-view li:nth-child(1) a")
+  }
+
+  listViewBtn(){
+    return cy.get(".switch-view li:nth-child(2) a")
+  }
+
+  verifyrResultTitle(){
+    return cy.get(".team-bg .team-desc h4 small")
+  }
+
+  verifyResultBusniess(){
+    return cy.get(".team-bg .team-footer .team-business")
+  }
+
+  verifyResultLocation(){
+    return cy.wait(".team-bg .team-footer .team-location")
   }
 
 }
