@@ -9,16 +9,13 @@
     "Eléonore  Decaux",
     "Jérémie Saiman"
   ],
-  "name2": [
-    "Jacob  Bass", 
+  "name2": [ 
     "Michael   A. Ewald",
     "Jason W. Saart"
   ],
-  "okNames":[
-    
-  ],
   "allPeopleNames": [
-"Akshar    Agarwal",
+    "Jacob  Bass",
+    "Akshar    Agarwal",
     "Darren  Abrahamson",
     "Bode  Adunbarin",
     "Ajay  Agarwal",
@@ -877,7 +874,7 @@
     "Technology Software",
     "Telecom"
   ],
-  "completeDetailOfPeoples": [
+  "completeDetailOfPeoples":[
     {
       "peopleName": "Akshar    Agarwal",
       "designationName": "Analyst",
@@ -901,9 +898,7 @@
       "designationName": "Associate",
       "businessTypeName": "Corporate",
       "locationName": "Boston"
-    }
-  ],
-  "test":[
+    },
     {
       "peopleName": "Anna   Alessandria",
       "designationName": "Head of Compensation & Benefits",
@@ -983,12 +978,6 @@
       "locationName": "Boston"
     },
     {
-      "peopleName": "Cristina   Asenjo Del Rió",
-      "designationName": "Vice President",
-      "businessTypeName": "Special Situations",
-      "locationName": "Madrid"
-    },
-    {
       "peopleName": "Emily   Ashworth",
       "designationName": "Managing Director",
       "businessTypeName": "Private Equity",
@@ -1009,7 +998,7 @@
     {
       "peopleName": "Dewey  Awad",
       "designationName": "Partner",
-      "businessTypeName": "Corporate",
+      "businessTypeName": "Public Equity, Tech Opportunity",
       "locationName": "Boston"
     },
     {
@@ -1113,12 +1102,6 @@
       "designationName": "Senior Advisor",
       "businessTypeName": "Private Equity",
       "locationName": "Boston"
-    },
-    {
-      "peopleName": "Cécile Belaman",
-      "designationName": "Partner",
-      "businessTypeName": "Investor Relations",
-      "locationName": "London"
     },
     {
       "peopleName": "Jonathan Belitsos",
@@ -1365,12 +1348,6 @@
       "designationName": "Managing Director",
       "businessTypeName": "Private Equity",
       "locationName": "London"
-    },
-    {
-      "peopleName": "Nicolò  Carrara",
-      "designationName": "Vice President",
-      "businessTypeName": "Private Equity",
-      "locationName": "Boston"
     },
     {
       "peopleName": "Jonah Cashdan",
@@ -1823,18 +1800,6 @@
       "locationName": "Boston"
     },
     {
-      "peopleName": "Eléonore  Decaux",
-      "designationName": "Associate",
-      "businessTypeName": "Tech Opportunities",
-      "locationName": "London"
-    },
-    {
-      "peopleName": "Kristen Deftos",
-      "designationName": "Head of Human Resources, Double Impact, Life Sciences, Real Estate & Tech Opportunities",
-      "businessTypeName": "Real Estate, Life Sciences, Double Impact, Tech Opportunities",
-      "locationName": "Boston"
-    },
-    {
       "peopleName": "Alice  Deller",
       "designationName": "Operating Partner",
       "businessTypeName": "Private Equity",
@@ -2063,12 +2028,6 @@
       "locationName": "London"
     },
     {
-      "peopleName": "Michael   A. Ewald",
-      "designationName": "Partner",
-      "businessTypeName": "Credit",
-      "locationName": "Boston"
-    },
-    {
       "peopleName": "John Ezekowitz",
       "designationName": "Managing Director",
       "businessTypeName": "Special Situations",
@@ -2205,12 +2164,6 @@
       "designationName": "Partner",
       "businessTypeName": "Private Equity",
       "locationName": "Boston"
-    },
-    {
-      "peopleName": "Scott Friend",
-      "designationName": "Partner",
-      "businessTypeName": "Ventures",
-      "locationName": "N/A"
     },
     {
       "peopleName": "Brian Fulginiti",
@@ -3461,12 +3414,6 @@
       "locationName": "London"
     },
     {
-      "peopleName": "Iñigo Lustau",
-      "designationName": "Vice President",
-      "businessTypeName": "Special Situations",
-      "locationName": "Madrid"
-    },
-    {
       "peopleName": "Victoria  Luttman",
       "designationName": "Associate General Counsel, Liquid Credit",
       "businessTypeName": "Credit",
@@ -4199,12 +4146,6 @@
       "locationName": "Sydney"
     },
     {
-      "peopleName": "Gonçalo Pedro Nunes",
-      "designationName": "Vice President",
-      "businessTypeName": "Special Situations",
-      "locationName": "Lisbon"
-    },
-    {
       "peopleName": "Alessandra  Pelliccia",
       "designationName": "Executive Vice President",
       "businessTypeName": "Private Equity",
@@ -4475,12 +4416,6 @@
       "locationName": "Boston"
     },
     {
-      "peopleName": "Adriana Rojas Garzón",
-      "designationName": "Assistant General Counsel, Capital Markets",
-      "businessTypeName": "Credit",
-      "locationName": "Boston"
-    },
-    {
       "peopleName": "Denise Romano",
       "designationName": "Head of Fund Tax, Private Markets",
       "businessTypeName": "Corporate",
@@ -4553,12 +4488,6 @@
       "locationName": "New York"
     },
     {
-      "peopleName": "Jason W. Saart",
-      "designationName": "Head of Partner Tax, U.S.",
-      "businessTypeName": "Corporate",
-      "locationName": "Boston"
-    },
-    {
       "peopleName": "Rami Said",
       "designationName": "Vice President, Finance Data Management, Private Markets",
       "businessTypeName": "Private Equity",
@@ -4569,12 +4498,6 @@
       "designationName": "Analyst",
       "businessTypeName": "Real Estate",
       "locationName": "Boston"
-    },
-    {
-      "peopleName": "Jérémie Saiman",
-      "designationName": "Principal",
-      "businessTypeName": "Private Equity",
-      "locationName": "London"
     },
     {
       "peopleName": "Enrique Salem",
@@ -5560,5 +5483,10 @@
       "businessTypeName": "Ventures",
       "locationName": "Boston"
     }
+  ],
+  "Asdads":[
+    "Vasilis Bollas",
+    "Kristen Deftos",
+    "Scott Friend"
   ]
 }

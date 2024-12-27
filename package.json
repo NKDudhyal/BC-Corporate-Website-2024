@@ -7,13 +7,43 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:homepage:chrome": "cross-env REPORT_FILENAME=Homepage-Chrome_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/homePage_TCs.cy.js' --browser chrome",
+    "test:homepage:edge": "cross-env REPORT_FILENAME=Homepage-Edge_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/homePage_TCs.cy.js' --browser edge",
+    "test:homepage:firefox": "cross-env REPORT_FILENAME=Homepage-Firefox_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/homePage_TCs.cy.js' --browser firefox",
+
+
+    "test:locationpage:chrome": "cross-env REPORT_FILENAME=Locationpage-Chrome_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/locationPage_TCs.cy.js' --browser chrome",
+    "test:locationpage:edge": "cross-env REPORT_FILENAME=Locationpage-Edge_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/locationPage_TCs.cy.js' --browser edge",
+    "test:locationpage:firefox": "cross-env REPORT_FILENAME=Locationpage-Firefox_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/locationPage_TCs.cy.js' --browser firefox",
+
+
+    "test:newsdetailpage:chrome": "cross-env REPORT_FILENAME=NewsDetailpage-Chrome_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/newsDetailPage_TCs.cy.js' --browser chrome",
+    "test:newsdetailpage:edge": "cross-env REPORT_FILENAME=NewsDetailpage-Edge_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/newsDetailPage_TCs.cy.js' --browser edge",
+    "test:newsdetailpage:firefox": "cross-env REPORT_FILENAME=NewsDetailpage-Firefox_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/newsDetailPage_TCs.cy.js' --browser firefox",
+
+
+    "test:newspage:chrome": "cross-env REPORT_FILENAME=Newspage-Chrome_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/newsPage_TCs.cy.js' --browser chrome",
+    "test:newspage:edge": "cross-env REPORT_FILENAME=Newspage-Edge_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/newsPage_TCs.cy.js' --browser edge",
+    "test:newspage:firefox": "cross-env REPORT_FILENAME=Newspage-Firefox_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/newsPage_TCs.cy.js' --browser firefox",
+
+
+    "test:peopledetailpage:chrome": "cross-env REPORT_FILENAME=PeopleDetailpage-Chrome_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peopleDetailPage_TCs.cy.js' --browser chrome",
+    "test:peopledetailpage:edge": "cross-env REPORT_FILENAME=PeopleDetailpage-Edge_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peopleDetailPage_TCs.cy.js' --browser edge",
+    "test:peopledetailpage:firefox": "cross-env REPORT_FILENAME=PeopleDetailpage-Firefox_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peopleDetailPage_TCs.cy.js' --browser firefox",
+
+
+    "test:peoplepage:chrome": "cross-env REPORT_FILENAME=Peoplepage-Chrome_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peoplePage_TCs.cy.js' --browser chrome",
+    "test:peoplepage:edge": "cross-env REPORT_FILENAME=Peoplepage-Edge_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peoplePage_TCs.cy.js' --browser edge",
+    "test:peoplepage:firefox": "cross-env REPORT_FILENAME=Peoplepage-Firefox_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peoplePage_TCs.cy.js' --browser firefox"
+
   },
   "dependencies": {
     "cypress": "^13.17.0",
     "cypress-real-events": "^1.13.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0"

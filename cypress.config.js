@@ -7,12 +7,13 @@ module.exports = defineConfig({
     },
     defaultCommandTimeout:20000
   },
-    "reporter": "mochawesome",
-    "reporterOptions": {
-      "reportDir": "cypress/reports",
-      "overwrite": false,
-      "inlineAssets": true,
-      "html": true,
-      "json": false
+    reporter: "mochawesome",
+    reporterOptions: {
+      reportDir: "cypress/reports",
+      overwrite: false,
+      inlineAssets: true,
+      html: true,
+      json: false,
+      reportFilename: process.env.REPORT_FILENAME || 'default-report', // Use a default if not provided
     }
 });

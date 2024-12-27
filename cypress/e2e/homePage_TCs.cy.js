@@ -27,7 +27,7 @@ describe("Home Page Tests", function () {
         }
       });
   });
-  it("TC002==>Verify that all baincapital menu inside moremenu are clickable", function () {
+  it("TC002 ==> Verify that all baincapital menu inside moremenu are clickable", function () {
     headerPom.moreMenu().click({ force: true });
     cy.wait(5000);
     moreMenuPom
