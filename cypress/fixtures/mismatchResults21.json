@@ -1,0 +1,14 @@
+[
+  {
+    "peopleName": "Reno  Sarge",
+    "key": "designationName",
+    "from_json_expected": "Data Analyst, IT",
+    "from_UI_actual": "Data Analyst"
+  },
+  {
+    "peopleName": "Quinn  Schwab",
+    "key": "designationName",
+    "from_json_expected": "Vice President",
+    "from_UI_actual": "Associate"
+  }
+]

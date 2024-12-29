@@ -6,7 +6,7 @@ import {
   homePom,
 } from "../support/setup";
 
-describe("Home Page Tests", function () {
+describe("Home Page Test Cases", function () {
   setupEnvironment();
   it("TC001 ==> Verify that moremenu functionality works properly.", function () {
     headerPom

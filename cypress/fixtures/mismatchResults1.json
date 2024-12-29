@@ -1,0 +1,26 @@
+[
+  {
+    "peopleName": "Ajit   Akole",
+    "key": "businessTypeName",
+    "expected": "Corporate",
+    "actual": "Tech Opportunities"
+  },
+  {
+    "peopleName": "Ernesto  Anguilla",
+    "key": "businessTypeName",
+    "expected": "N/A",
+    "actual": "Corporate"
+  },
+  {
+    "peopleName": "Dewey  Awad",
+    "key": "businessTypeName",
+    "expected": "Public Equity, Tech Opportunity",
+    "actual": "Corporate, Public Equity, Tech Opportunities"
+  },
+  {
+    "peopleName": "Seth  Bancroft",
+    "key": "designationName",
+    "from_json_expected": "Director, Product Specialist",
+    "from_UI_actual": "Director"
+  }
+]

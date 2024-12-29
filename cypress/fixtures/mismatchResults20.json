@@ -1,0 +1,38 @@
+[
+  {
+    "peopleName": "Viren  Rajani",
+    "key": "businessTypeName",
+    "expected": "Corporate",
+    "actual": "Private Equity"
+  },
+  {
+    "peopleName": "Matteo Ranzato",
+    "key": "businessTypeName",
+    "expected": "Corporate",
+    "actual": "Credit"
+  },
+  {
+    "peopleName": "Matteo Ranzato",
+    "key": "locationName",
+    "expected": "Milan",
+    "actual": "London"
+  },
+  {
+    "peopleName": "Kara Reusch",
+    "key": "designationName",
+    "from_json_expected": "Vice President, Product Specialist",
+    "from_UI_actual": "Vice President"
+  },
+  {
+    "peopleName": "Kathleen H. Rockey",
+    "key": "designationName",
+    "from_json_expected": "Chief Administrative Officer, Capital Markets",
+    "from_UI_actual": "Chief Administration Officer, Capital Markets"
+  },
+  {
+    "peopleName": "Kathleen H. Rockey",
+    "key": "businessTypeName",
+    "expected": "Special Situations, Credit, Public Equity, Partnership Strategies",
+    "actual": "Credit, Partnership Strategies, Public Equity, Special Situations"
+  }
+]

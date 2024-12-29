@@ -13,7 +13,7 @@ import {
 } from "../support/setup";
 
 
-describe("News Detail Page Tests", function () {
+describe("News Detail Page Test Cases", function () {
   setupEnvironment();
 
   it("TC001 ==> Verify news type in breadcrumb matches the selected news type.", function () {

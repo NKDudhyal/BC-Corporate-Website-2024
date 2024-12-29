@@ -1,0 +1,8 @@
+[
+  {
+    "peopleName": "Rishi Mandawat",
+    "key": "businessTypeName",
+    "expected": "Corporate",
+    "actual": "Private Equity"
+  }
+]

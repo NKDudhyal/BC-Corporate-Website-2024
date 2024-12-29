@@ -1,0 +1,26 @@
+[
+  {
+    "peopleName": "Renato  Chimenti",
+    "key": "designationName",
+    "from_json_expected": "Vice President, Fund Performance",
+    "from_UI_actual": "Vice President"
+  },
+  {
+    "peopleName": "Andrew Cleverdon",
+    "key": "businessTypeName",
+    "expected": "Tech Opportunities, Crypto, Ventures",
+    "actual": "Crypto, Tech Opportunities, Ventures"
+  },
+  {
+    "peopleName": "Alysaa Co",
+    "key": "designationName",
+    "from_json_expected": "Vice President",
+    "from_UI_actual": "Associate"
+  },
+  {
+    "peopleName": "Rachel  Colson",
+    "key": "designationName",
+    "from_json_expected": "Director of Communications, Ventures",
+    "from_UI_actual": "Director of Communications"
+  }
+]

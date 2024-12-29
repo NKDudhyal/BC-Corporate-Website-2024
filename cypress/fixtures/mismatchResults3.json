@@ -1,0 +1,20 @@
+[
+  {
+    "peopleName": "Katherine Brown",
+    "key": "designationName",
+    "from_json_expected": "Event Manager",
+    "from_UI_actual": "Marketing Manager"
+  },
+  {
+    "peopleName": "Mandy Campbell",
+    "key": "designationName",
+    "from_json_expected": "Head of Marketing, Crypto",
+    "from_UI_actual": "Managing Director"
+  },
+  {
+    "peopleName": "Clara Chan Farnsworth",
+    "key": "designationName",
+    "from_json_expected": "Vice President, Data Governance",
+    "from_UI_actual": "Vice President, Data Governance."
+  }
+]

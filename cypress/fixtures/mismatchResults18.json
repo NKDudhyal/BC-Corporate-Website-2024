@@ -1,0 +1,8 @@
+[
+  {
+    "peopleName": "Jake Palmer",
+    "key": "designationName",
+    "from_json_expected": "Manager, IT",
+    "from_UI_actual": "Senior Data Analyst"
+  }
+]

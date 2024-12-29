@@ -12,7 +12,7 @@ import {
   urls,
 } from "../support/setup";
 
-describe("News page Tests", () => {
+describe("News Page Test Cases", () => {
   setupEnvironment();
 
   it("TC001 ==> Verify that business dropdown functionality works and selected option should reflects in listing properly.", () => {

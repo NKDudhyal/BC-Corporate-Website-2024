@@ -1,0 +1,14 @@
+[
+  {
+    "peopleName": "Joella Greaney",
+    "key": "businessTypeName",
+    "expected": "Special Situations, Private Equity, Credit",
+    "actual": "Credit, Private Equity, Special Situations"
+  },
+  {
+    "peopleName": "Andrew Hailey",
+    "key": "locationName",
+    "expected": "New York",
+    "actual": "Boston"
+  }
+]

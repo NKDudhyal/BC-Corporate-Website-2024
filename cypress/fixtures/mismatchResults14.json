@@ -1,0 +1,14 @@
+[
+  {
+    "peopleName": "Jungwoo Lee",
+    "key": "businessTypeName",
+    "expected": "Corporate",
+    "actual": "Private Equity, Special Situations"
+  },
+  {
+    "peopleName": "Nancy Lotane",
+    "key": "designationName",
+    "from_json_expected": "Chief Human Resources Officer",
+    "from_UI_actual": "CHRO, Bain Capital & COO, Private Equity"
+  }
+]

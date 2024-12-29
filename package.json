@@ -35,8 +35,9 @@
 
     "test:peoplepage:chrome": "cross-env REPORT_FILENAME=Peoplepage-Chrome_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peoplePage_TCs.cy.js' --browser chrome",
     "test:peoplepage:edge": "cross-env REPORT_FILENAME=Peoplepage-Edge_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peoplePage_TCs.cy.js' --browser edge",
-    "test:peoplepage:firefox": "cross-env REPORT_FILENAME=Peoplepage-Firefox_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peoplePage_TCs.cy.js' --browser firefox"
+    "test:peoplepage:firefox": "cross-env REPORT_FILENAME=Peoplepage-Firefox_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peoplePage_TCs.cy.js' --browser firefox",
 
+    "test:peopledetailfailedtc18and23and31:chrome": "cross-env REPORT_FILENAME=PeopleDetailpage_Failed_TC18_23_31_Chrome_Test_Cases_Execution npx cypress run --spec 'cypress/e2e/peopleDetailPage_TCs.cy.js' --browser chrome"
   },
   "dependencies": {
     "cypress": "^13.17.0",

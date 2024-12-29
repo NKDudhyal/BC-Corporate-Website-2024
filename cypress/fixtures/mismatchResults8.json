@@ -1,0 +1,32 @@
+[
+  {
+    "peopleName": "Jen Fox",
+    "key": "businessTypeName",
+    "expected": "Special Situations, Insurance, Partnership Strategies",
+    "actual": "Insurance, Partnership Strategies, Special Situations"
+  },
+  {
+    "peopleName": "Ben  Gallagher",
+    "key": "designationName",
+    "from_json_expected": "Vice President, Product Specialist",
+    "from_UI_actual": "Vice President"
+  },
+  {
+    "peopleName": "Kevin  Gallagher",
+    "key": "businessTypeName",
+    "expected": "Special Situations, Credit",
+    "actual": "Credit, Special Situations"
+  },
+  {
+    "peopleName": "James Goldman",
+    "key": "businessTypeName",
+    "expected": "Special Situations, Credit",
+    "actual": "Credit, Special Situations"
+  },
+  {
+    "peopleName": "Sharad Goyal",
+    "key": "businessTypeName",
+    "expected": "Private Equity, Life Sciences, Double Impact, Tech Opportunities",
+    "actual": "Double Impact, Life Sciences, Private Equity, Tech Opportunities"
+  }
+]

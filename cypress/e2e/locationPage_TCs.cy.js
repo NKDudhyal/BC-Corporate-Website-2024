@@ -29,7 +29,7 @@ import {
   urls,
 } from "../support/setup";
 
-describe("Location Page test Cases", function () {
+describe("Location Page Test Cases", function () {
   setupEnvironment();
   it("TC001 ==> Verify that location functionality works properly and url should proper.", function () {
     headerPom.location_lnk().click({ force: true });

@@ -12,7 +12,7 @@ import {
   PeopleTestData,
 } from "../support/setup";
 
-describe("People Page Tests", function () {
+describe("People Page Test Cases", function () {
   setupEnvironment();
 
   it("TC001 ==> Verfiy that location dropdown work properly.", function () {

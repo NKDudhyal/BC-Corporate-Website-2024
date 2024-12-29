@@ -1,0 +1,8 @@
+[
+  {
+    "peopleName": "Jeffrey B. Hawkins",
+    "key": "businessTypeName",
+    "expected": "Special Situations, Credit",
+    "actual": "Credit, Special Situations"
+  }
+]

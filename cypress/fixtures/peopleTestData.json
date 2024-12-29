@@ -11,9 +11,13 @@
   ],
   "name2": [ 
     "Michael   A. Ewald",
-    "Jason W. Saart"
+    "Jason W. Saart",
+    "Leonard Feiner",
+    "Giuseppe  Mascia",
+    "Georgios Elekidis",
+    "Vasilis  Bollas"
   ],
-  "allPeopleNames": [
+  "allPeopleNames1": [
     "Jacob  Bass",
     "Akshar    Agarwal",
     "Darren  Abrahamson",
@@ -54,7 +58,9 @@
     "Anupam  Behura",
     "Josh  Bekenstein",
     "Jonathan Belitsos",
-    "Francisco Bello",
+    "Francisco Bello"
+  ],
+  "allPeopleNames2":[
     "Nicholas Bendt",
     "Adam Berg",
     "Zach Berger",
@@ -104,7 +110,9 @@
     "Amit Chandra",
     "Cecilia Chao",
     "Owen  Chapey",
-    "Brad Charchut",
+    "Brad Charchut"
+  ],
+  "allPeopleNames3":[
     "Daniel Charnoff",
     "Shuvam  Chaudhuri",
     "Darick  Chen",
@@ -155,7 +163,9 @@
     "Maggie  Curtiss",
     "Katie  Czerepak",
     "Thomas D'Orsi",
-    "Carl  Daher",
+    "Carl  Daher"
+  ],
+  "allPeopleNames4":[
     "Jennie  Daisak",
     "Melissa Danforth",
     "David Danon",
@@ -196,7 +206,7 @@
     "Paul Edgerley",
     "Robert  Ehrhart",
     "William Eleazer",
-    "Georgios Elekidis",
+    " E Elekidis",
     "Thomas Emery",
     "Patrick Engels",
     "Michael Epstein",
@@ -206,12 +216,14 @@
     "Alex Evans",
     "Matthew Evans",
     "Liraz Evenor",
-    "Florence  Evina-Ze",
+    "Florence  Evina-Ze"
+  ],
+  "allPeopleNames5":[
+    "Ben Finestein",
     "Bertille  Evrard",
     "John Ezekowitz",
     "Robert Farkas",
     "Caroline Feeley",
-    "Leonard Feiner",
     "Marisa Femenia",
     "Yanjun Feng",
     "Daniel Fernandez",
@@ -219,8 +231,6 @@
     "Drew Field",
     "Andrea  Filippa",
     "Breland  Finch",
-    "Ben Finestein",
-    "Steve Finocchi",
     "David Flinn",
     "Adam  Fogel",
     "Jeremy  Foo",
@@ -259,6 +269,9 @@
     "Michael Grandfield",
     "Nick Gray",
     "Caroline Gray",
+    "Steve Finocchi"
+  ],
+  "allPeopleNames6":[
     "Joella Greaney",
     "Chris  Green",
     "Lukas Gregg",
@@ -307,7 +320,9 @@
     "James Hole",
     "Anne Holloway",
     "Alison  Holmes",
-    "Hajime Honda",
+    "Hajime Honda"
+  ],
+  "allPeopleNames7":[
     "Caroline  Hooper",
     "Stephen  Horemiotis",
     "Shintaro Hori",
@@ -357,7 +372,9 @@
     "Mary  Kate Langan",
     "Alexander  Katz",
     "Roni Katz",
-    "Isabel  Kaufman",
+    "Isabel  Kaufman"
+  ],
+  "allPeopleNames8":[
     "Keiichiro Kawabata",
     "Shimpei Kawaguchi",
     "Nick Kazarinoff",
@@ -398,7 +415,9 @@
     "Komi Kyu",
     "Albert La Valle",
     "Francesco Lampone",
-    "Kate Lantier",
+    "Kate Lantier"
+  ],
+  "allPeopleNames9":[
     "Mark  Laramee",
     "Marvin  Larbi-Yeboa",
     "Joyce  Lau",
@@ -439,7 +458,9 @@
     "Phil Loughlin",
     "Andrea Lucido",
     "Daniel  Lundin",
-    "Victoria  Luttman",
+    "Victoria  Luttman"
+  ],
+  "allPeopleNames10":[
     "Brad  Lynds",
     "Barnaby Lyons",
     "Haley MacCormac",
@@ -479,7 +500,9 @@
     "AJ McGuire",
     "Ronald  McIntosh",
     "Mary Kate  McIntyre",
-    "Megan  McKenzie",
+    "Megan  McKenzie"
+  ],
+  "allPeopleNames11":[
     "Scott McKenzie",
     "Liv  McKinney",
     "Anita Meconiates",
@@ -539,7 +562,9 @@
     "Martha Obasi",
     "Yurio  Ogawa",
     "Saanya  Ojha",
-    "Kento  Okamoto",
+    "Kento  Okamoto"
+  ],
+  "allPeopleNames12":[
     "Michael Olohan",
     "Nicholas Onie",
     "Makoto Ono",
@@ -579,7 +604,9 @@
     "Fatima Porras Olalla",
     "Thomas Portier",
     "Shannon Poulos",
-    "James Pound",
+    "James Pound"
+  ],
+  "allPeopleNames13":[
     "Ben  Prawdzik",
     "Marc Pulde",
     "Chen  Qian",
@@ -630,7 +657,9 @@
     "Reno  Sarge",
     "Tom Sargeant",
     "Robert  Sayegh",
-    "Andrew  Schantz",
+    "Andrew  Schantz"
+  ],
+  "allPeopleNames14":[
     "David  Schiffmann",
     "Katherine Schneider",
     "Michael  Schor",
@@ -671,7 +700,9 @@
     "James Stevens",
     "Slater Stich",
     "Pooja  Subramaniam",
-    "Radhika Subramanian",
+    "Radhika Subramanian"
+  ],
+  "allPeopleNames15":[
     "Masa Suekane",
     "Yuji Sugimoto",
     "Jordan  Sulkin",
@@ -721,7 +752,9 @@
     "Michelle P Vasil",
     "Frederique  Verachten",
     "Vincent  Vernier",
-    "Davide  Vidotto",
+    "Davide  Vidotto"
+  ],
+  "allPeopleNames16":[
     "Andrew S. Viens",
     "Paolo Vismara",
     "Patrick  Vogl",
@@ -874,7 +907,7 @@
     "Technology Software",
     "Telecom"
   ],
-  "completeDetailOfPeoples":[
+  "completeDetailOfPeoples1":[
     {
       "peopleName": "Akshar    Agarwal",
       "designationName": "Analyst",
@@ -1054,7 +1087,9 @@
       "designationName": "Associate",
       "businessTypeName": "Real Estate",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples2":[
     {
       "peopleName": "Luca  Bassi",
       "designationName": "Partner",
@@ -1188,12 +1223,6 @@
       "locationName": "Boston"
     },
     {
-      "peopleName": "Vasilis  Bollas",
-      "designationName": "Executive Vice President",
-      "businessTypeName": "Special Situations",
-      "locationName": "N/A"
-    },
-    {
       "peopleName": "Corey  Bourbonais",
       "designationName": "Vice President",
       "businessTypeName": "Special Situations",
@@ -1234,7 +1263,9 @@
       "designationName": "Operating Partner",
       "businessTypeName": "Ventures",
       "locationName": "New York"
-    },
+    }
+  ],
+  "completeDetailOfPeoples3":[
     {
       "peopleName": "Katherine Brown",
       "designationName": "Event Manager",
@@ -1414,7 +1445,9 @@
       "designationName": "Partner",
       "businessTypeName": "Credit",
       "locationName": "Chicago"
-    },
+    }
+  ],
+  "completeDetailOfPeoples4":[
     {
       "peopleName": "Daniel Charnoff",
       "designationName": "Principal",
@@ -1594,7 +1627,9 @@
       "designationName": "Vice President, Compensation, Private Markets",
       "businessTypeName": "Corporate",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples5":[
     {
       "peopleName": "Amanda Conklin",
       "designationName": "Vice President",
@@ -1774,7 +1809,9 @@
       "designationName": "Partner",
       "businessTypeName": "Private Equity",
       "locationName": "New York"
-    },
+    }
+  ],
+  "completeDetailOfPeoples6":[
     {
       "peopleName": "Alberto De Antoni",
       "designationName": "Principal",
@@ -1954,13 +1991,9 @@
       "designationName": "Technical Recruiter",
       "businessTypeName": "Ventures",
       "locationName": "San Francisco"
-    },
-    {
-      "peopleName": "Georgios Elekidis",
-      "designationName": "Principal",
-      "businessTypeName": "Special Situations",
-      "locationName": "N/A"
-    },
+    }
+  ],
+  "completeDetailOfPeoples7":[
     {
       "peopleName": "Thomas Emery",
       "designationName": "Chief Accounting Officer, Bain Capital Specialty Finance",
@@ -2043,12 +2076,6 @@
       "peopleName": "Caroline Feeley",
       "designationName": "Vice President",
       "businessTypeName": "Real Estate",
-      "locationName": "Boston"
-    },
-    {
-      "peopleName": "Leonard Feiner",
-      "designationName": "Principal",
-      "businessTypeName": "Corporate",
       "locationName": "Boston"
     },
     {
@@ -2140,7 +2167,9 @@
       "designationName": "Associate",
       "businessTypeName": "Real Estate",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples8":[
     {
       "peopleName": "Jen Fox",
       "designationName": "Vice President, Human Resources, U.S. Special Situations, Insurance & Partnership Strategies",
@@ -2320,7 +2349,9 @@
       "designationName": "Director",
       "businessTypeName": "Investor Relations",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples9":[
     {
       "peopleName": "Caroline Gray",
       "designationName": "Vice President",
@@ -2500,7 +2531,9 @@
       "designationName": "Partner",
       "businessTypeName": "Credit",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples10":[
     {
       "peopleName": "David  Haswell",
       "designationName": "Director",
@@ -2680,7 +2713,9 @@
       "designationName": "Associate",
       "businessTypeName": "Ventures",
       "locationName": "San Francisco"
-    },
+    }
+  ],
+  "completeDetailOfPeoples11":[
     {
       "peopleName": "June Huang",
       "designationName": "Director",
@@ -2860,7 +2895,9 @@
       "designationName": "Director",
       "businessTypeName": "Investor Relations",
       "locationName": "London"
-    },
+    }
+  ],
+  "completeDetailOfPeoples12":[
     {
       "peopleName": "John Kane",
       "designationName": "Vice President",
@@ -3040,7 +3077,9 @@
       "designationName": "Managing Director",
       "businessTypeName": "Private Equity",
       "locationName": "Seoul"
-    },
+    }
+  ],
+  "completeDetailOfPeoples13":[
     {
       "peopleName": "Joshua  Kim",
       "designationName": "Associate",
@@ -3220,7 +3259,9 @@
       "designationName": "Associate",
       "businessTypeName": "Real Estate",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples14":[
     {
       "peopleName": "Chris  Leddy",
       "designationName": "Principal",
@@ -3400,7 +3441,9 @@
       "designationName": "Partner",
       "businessTypeName": "Private Equity",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples15":[
     {
       "peopleName": "Andrea Lucido",
       "designationName": "Director",
@@ -3546,12 +3589,6 @@
       "locationName": "Madrid"
     },
     {
-      "peopleName": "Giuseppe  Mascia",
-      "designationName": "Vice President",
-      "businessTypeName": "Special Situations",
-      "locationName": "N/A"
-    },
-    {
       "peopleName": "Una Mason",
       "designationName": "Partner",
       "businessTypeName": "Credit",
@@ -3580,7 +3617,9 @@
       "designationName": "Head of HR Technology and Operations",
       "businessTypeName": "Corporate",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples16":[
     {
       "peopleName": "Michael McArdle",
       "designationName": "Head of IR Marketing, Diligence & Operations",
@@ -3757,10 +3796,12 @@
     },
     {
       "peopleName": "Chris Mitchell",
-      "designationName": "Head of IT Infrastructure Operations & Cloud Services",
+      "designationName": "Head of IT Infrastructure Operations & Cloud Services",
       "businessTypeName": "Corporate",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples17":[
     {
       "peopleName": "Arjun  Mittal",
       "designationName": "Associate",
@@ -3940,7 +3981,9 @@
       "designationName": "Associate",
       "businessTypeName": "Double Impact",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples18":[
     {
       "peopleName": "Naofumi Nishi",
       "designationName": "Partner",
@@ -4120,7 +4163,9 @@
       "designationName": "Principal",
       "businessTypeName": "Private Equity",
       "locationName": "Seoul"
-    },
+    }
+  ],
+  "completeDetailOfPeoples19":[
     {
       "peopleName": "Hannah Parker",
       "designationName": "Vice President, Human Resource, Europe PE & Europe Platform Services",
@@ -4300,7 +4345,9 @@
       "designationName": "Partner",
       "businessTypeName": "Investor Relations",
       "locationName": "San Francisco"
-    },
+    }
+  ],
+  "completeDetailOfPeoples20":[
     {
       "peopleName": "Viren  Rajani",
       "designationName": "Vice President",
@@ -4480,7 +4527,9 @@
       "designationName": "Vice President",
       "businessTypeName": "Private Equity",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples21":[
     {
       "peopleName": "Mark Saadine",
       "designationName": "Managing Director",
@@ -4660,7 +4709,9 @@
       "designationName": "Partner",
       "businessTypeName": "Credit",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples22":[
     {
       "peopleName": "Michael Siefke",
       "designationName": "Partner",
@@ -4840,7 +4891,9 @@
       "designationName": "Head of Fund Tax, Credit & Special Situations",
       "businessTypeName": "Special Situations, Credit",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples23":[
     {
       "peopleName": "Jack  Sun",
       "designationName": "Managing Director",
@@ -5020,7 +5073,9 @@
       "designationName": "Associate",
       "businessTypeName": "Insurance",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples24":[
     {
       "peopleName": "Satoshi  Ueyama",
       "designationName": "Vice President",
@@ -5200,7 +5255,9 @@
       "designationName": "Associate",
       "businessTypeName": "Real Estate",
       "locationName": "Boston"
-    },
+    }
+  ],
+  "completeDetailOfPeoples25":[
     {
       "peopleName": "Shun Watanabe",
       "designationName": "Managing Director",

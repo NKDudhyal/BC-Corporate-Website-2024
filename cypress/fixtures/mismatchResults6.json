@@ -1,0 +1,20 @@
+[
+  {
+    "peopleName": "Nathaniel Denby",
+    "key": "locationName",
+    "expected": "New York",
+    "actual": "Boston"
+  },
+  {
+    "peopleName": "Sally Dornaus",
+    "key": "businessTypeName",
+    "expected": "Special Situations, Credit, Public Equity, Partnership Strategies",
+    "actual": "Credit, Partnership Strategies, Public Equity, Special Situations"
+  },
+  {
+    "peopleName": "Patrick Dury",
+    "key": "businessTypeName",
+    "expected": "Special Situations, Credit",
+    "actual": "Credit, Special Situations"
+  }
+]
